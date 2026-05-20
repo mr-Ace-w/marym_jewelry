@@ -408,11 +408,12 @@ footer{
 
 
   .header-button{
+        gap: 1px;
        align-items: flex-end; /* вирівнювання по нижньому краю */
         flex-direction: column; /* розташування кнопок вертикально */
     }
     .header-button p{
-        margin: 0.5; /* прибираємо відступи між кнопками */
+        margin: 0.3; /* прибираємо відступи між кнопками */
         font-size: 14px; /* зменшуємо розмір шрифту для кращого вигляду на маленьких екранах */
     }
 
@@ -445,13 +446,15 @@ footer{
     .top-item{
     width: 94%;
     }
-    .top-item img{
-    min-width:40%;
-    width: 12%;
-    height: auto;
-    }
     .slider{
     gap: 12px;
+    }
+    .slider-track img{/* картинки слайдера */
+    display: block;
+    width: 45%;
+    height: auto;
+    transition: 0.3s;
+    text-align: center;
     }
 
 
