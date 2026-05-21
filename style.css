@@ -485,14 +485,15 @@ footer{
 
 
    .container-product img{
-   width: 95%;
+   width: 99%;
+   
    }
    .product{
      width: calc(52.000% - 14px); /* 3 в ряд */
     }
     .container-product{
     width: 100%;
-    gap: 10px;
+    gap: 2px;
    }
 
 
